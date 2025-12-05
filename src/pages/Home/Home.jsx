@@ -7,6 +7,7 @@ import CurrencySection from "../../components/UI/Currency/CurrencySection";
 import SectionCurrency from "../../components/UI/SectionTitle/SectionCurrency";
 import SectionBlog from "../../components/UI/SectionTitle/SectionBlog";
 import BlogSection from "../../components/UI/BlogCard/BlogSection";
+import Footer from "../../components/UI/Footer/Footer";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
       <CurrencySection />
       <SectionBlog title=" بلاگ آموزشی" id="BlogSection" />
       <BlogSection />
+      <Footer/>
     </main>
   );
 };
