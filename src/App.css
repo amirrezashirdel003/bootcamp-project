@@ -1,1 +1,65 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary-800: #e9a639;
+  --color-primary-800: #eb9b2c;
+  --color-secondary-600: #075328;
+  --color-secondary-800: #08381d;
+  --color-accent-900: #272e2d;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./assets/fonts/YekanBakh/YekanBakh-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./assets/fonts/YekanBakh/YekanBakh-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  src: url("./assets/fonts/YekanBakh/YekanBakh-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: YekanBakh;
+  src: url("./assets/fonts/YekanBakh/YekanBakh-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: YekanBakh, sans-serif;
+  direction: rtl;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* 
+.text-shadow {
+  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+.bg-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+} */
+
+/* .hide-scrollbar::-webkit-scrollbar {
+  display: none;
+} */
+
+/* .hide-scrollbar {
+  -ms-overflow-style: none; */
+  /* IE and Edge */
+  /* scrollbar-width: none; */
+  /* Firefox */
+/* } */
