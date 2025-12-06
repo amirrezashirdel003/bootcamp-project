@@ -14,10 +14,12 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-md font-bold">دسترسی سریع</h3>
           <ul className="flex flex-col gap-2 text-sm opacity-90  ">
-            <li className="hover:text-primary-300 cursor-pointer ">خانه</li>
-            <li className="hover:text-primary-300 cursor-pointer ">فروشگاه</li>
-            <li className="hover:text-primary-300 cursor-pointer ">بلاگ</li>
-            <li className="hover:text-primary-300 cursor-pointer ">
+            <li className="hover:text-primary-300 cursor-pointer  hover:text-primary-800">خانه</li>
+            <li className="hover:text-primary-300 cursor-pointer hover:text-primary-800">
+              فروشگاه
+            </li>
+            <li className="hover:text-primary-300 cursor-pointer hover:text-primary-800">بلاگ</li>
+            <li className="hover:text-primary-300 cursor-pointer hover:text-primary-800">
               درباره ما
             </li>
           </ul>
@@ -27,9 +29,15 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="text-md font-bold  ">ارتباط با ما</h3>
           <ul className="flex flex-col gap-2 font-light opacity-90">
-            <li className="cursor-pointer"> شماره تماس :  00 00 000 0912 </li>
-            <li className="cursor-pointer"> اینستاگرام : ayda_gallery </li>
-            <li className="cursor-pointer">  آدرس : تهران - تهران </li>
+            <li className="cursor-pointer hover:text-primary-800 ">
+              {" "}
+              شماره تماس : 00 00 000 0912{" "}
+            </li>
+            <li className="cursor-pointer hover hover:text-primary-800 ">
+              {" "}
+              اینستاگرام : ayda_gallery{" "}
+            </li>
+            <li className="cursor-pointer hover hover:text-primary-800 "> آدرس : تهران - تهران </li>
           </ul>
         </div>
       </div>

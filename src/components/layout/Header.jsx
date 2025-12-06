@@ -39,7 +39,7 @@ const Header = () => {
           <IconBox path={"https://www.instagram.com/"}>
             <Instagram size={20} />
           </IconBox>
-          <IconBox path={"tel:+1234567890"}>
+          <IconBox path={"tel:+989120000000"}>
             <Phone size={20} />
           </IconBox>
         </div>
