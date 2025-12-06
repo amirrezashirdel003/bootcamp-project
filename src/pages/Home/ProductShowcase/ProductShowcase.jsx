@@ -12,7 +12,7 @@ const ProductShowcase = ({ category = "all" }) => {
   return (
     <div className="w-full flex justify-center gap-5 my-5 mb-15 ">
       {/* --- باکس سبز (سمت راست) --- */}
-      <div className="bg-green-950 text-white rounded-xl px-3 pt-10 pb-3 w-1/5 flex flex-col justify-between text-center  gap-8  hover:scale-101 transition ">
+      <div className="bg-green-950 text-white rounded-xl px-3 pt-10 pb-3 w-60 flex flex-col justify-between text-center  gap-8  hover:scale-101 transition ">
         <div className=" gap-9 flex flex-col">
           <h2 className="text-xl font-bold  ">شگفت گالری</h2>
           <p className="text-sm opacity-80 leading-6">

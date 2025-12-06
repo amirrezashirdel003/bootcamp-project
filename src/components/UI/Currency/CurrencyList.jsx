@@ -2,12 +2,12 @@ import CurrencyItem from "./CurrencyItem";
 
 const CurrencyList = () => {
   const data = [
-    { title: "دلار آمریکا", price: "۲۵,۰۰۰", unit: "USD" },
-    { title: "یورو", price: "۳۰,۰۰۰", unit: "EUR" },
-    { title: "پوند بریتانیا", price: "۳۵,۰۰۰", unit: "GBP" },
-    { title: "ین ژاپن", price: "۲۰۰", unit: "JPY" },
-    { title: "دلار کانادا", price: "۲۰,۰۰۰", unit: "CAD" },
-    { title: "دلار استرالیا", price: "۱۸,۰۰۰", unit: "AUD" },
+    { title: "دلار آمریکا", price: "120,780", unit: "USD" },
+    { title: "یورو", price: "140,670", unit: "EUR" },
+    { title: "پوند بریتانیا", price: "161,150", unit: "GBP" },
+    { title: "درهم", price: "33,000", unit: "AED" },
+    { title: "دلار کانادا", price: "87,280", unit: "CAD" },
+    { title: "دلار استرالیا", price: "80,185", unit: "AUD" },
   ];
   return (
     <div className="flex flex-col gap-1">
