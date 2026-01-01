@@ -4,10 +4,10 @@ import IconBox from "../UI/Box/iconBox";
 import { Link } from "react-router";
 
 const navItems = [
-  { name: "خانه", path: "/" },
-  { name: "فروشگاه", path: "/market" },
+  { name: "خانه", path: "/." },
+  { name: "محصولات", path: "/Products" },
   { name: "بلاگ آموزشی", path: "#BlogSection" },
-  { name: "درباره ما", path: "/about-us" },
+  { name: "درباره ما", path: "/src/pages/About/AboutUs.jsx" },
 ];
 
 const Header = () => {
