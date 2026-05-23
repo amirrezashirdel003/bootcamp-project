@@ -5,27 +5,31 @@ import ProductShowcase from "./ProductShowcase/ProductShowcase";
 import SectionTitle from "../../components/UI/SectionTitle/SectionTitle";
 import CurrencySection from "../../components/UI/Currency/CurrencySection";
 import SectionCurrency from "../../components/UI/SectionTitle/SectionCurrency";
-import SectionBlog from "../../components/UI/SectionTitle/SectionBlog";
 import BlogSection from "../../components/UI/BlogCard/BlogSection";
-import Footer from "../../components/UI/Footer/Footer";
-
 
 const Home = () => {
+
   const [activeCategory, setActiveCategory] = useState("female");
 
   return (
-    <main>
+    <main className="overflow-x-hidden">
       <HeroSection />
-      <SectionTitle title="دسته بندی‌ها" />
+      <SectionTitle title="دسته بندی‌ها" id="Products" />
+
       <Categories active={activeCategory} setActive={setActiveCategory} />
 
       <ProductShowcase category={activeCategory} />
+
       <SectionCurrency title="قیمت ارز" />
+
       <CurrencySection />
-      <SectionBlog title=" بلاگ آموزشی" id="BlogSection" />
+
+      <SectionTitle title=" بلاگ آموزشی" id="BlogSection" />
+
       <BlogSection />
-      <Footer/>
+      {/* <Footer /> */}
     </main>
+    
   );
 };
 

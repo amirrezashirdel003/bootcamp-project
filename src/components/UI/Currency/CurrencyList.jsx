@@ -10,7 +10,8 @@ const CurrencyList = () => {
     { title: "دلار استرالیا", price: "80,185", unit: "AUD" },
   ];
   return (
-    <div className="flex flex-col gap-1">
+
+    <div className="w-full space-y-1" >
       {data.map((item, index) => (
         <CurrencyItem key={index} title={item.title} price={item.price} unit={item.unit} />
       ))}
